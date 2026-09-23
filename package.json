@@ -1,0 +1,22 @@
+{
+  "name": "zhiku-ai-assistant",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 127.0.0.1",
+    "build": "vite build",
+    "preview": "vite preview --host 127.0.0.1",
+    "check": "node --check src/services/sse.js && node --check src/utils/chartAdapter.js"
+  },
+  "dependencies": {
+    "echarts": "^6.1.0",
+    "vditor": "^3.11.2",
+    "vue": "^3.5.22",
+    "vue-router": "^4.5.1"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.2.4",
+    "vite": "^6.3.6"
+  }
+}
